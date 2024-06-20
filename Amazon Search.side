@@ -1,0 +1,352 @@
+{
+  "id": "f7b74dc3-48ae-4e31-8359-1b5990f77d3a",
+  "version": "2.0",
+  "name": "Amazon Search",
+  "url": "https://www.amazon.in",
+  "tests": [{
+    "id": "ed34e41c-fcdd-4458-8ade-54ee01afeb21",
+    "name": "Test1",
+    "commands": [{
+      "id": "5a7ecea8-7b7b-4bf3-929d-e815d5f1ec47",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00ed8728-9a66-4336-a4f5-e5dd4db708a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "809x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49f94c85-3653-4e07-9f38-5e104d402232",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=icp-nav-flyout",
+      "targets": [
+        ["id=icp-nav-flyout", "id"],
+        ["linkText=EN", "linkText"],
+        ["css=#icp-nav-flyout", "css:finder"],
+        ["xpath=//a[@id='icp-nav-flyout']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-tools']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'EN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50433cc4-686b-4ae8-91a2-b65ad1ed4257",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3920e18e-0011-4d28-9406-419e11bce29e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Best Sellers",
+      "targets": [
+        ["linkText=Best Sellers", "linkText"],
+        ["css=.nav-a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Best Sellers')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/bestsellers/?ref_=nav_cs_bestsellers')]", "xpath:href"],
+        ["xpath=//div[5]/div[2]/div/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Best Sellers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d982877-8c6b-41e2-be10-28af8232008f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#B0D17XMJKQ .a-dynamic-image",
+      "targets": [
+        ["css=#B0D17XMJKQ .a-dynamic-image", "css:finder"],
+        ["xpath=//img[@alt='Rylan Umbrella Automatic Open Travel Umbrella with Wind Vent,Umbrella big size for men, Umbrella for girls, Umbrellas for rai']", "xpath:img"],
+        ["xpath=//div[@id='B0D17XMJKQ']/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03679ae4-6b34-41dc-8eae-05d8c36b71fa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=nav-link-accountList",
+      "targets": [
+        ["id=nav-link-accountList", "id"],
+        ["css=#nav-link-accountList", "css:finder"],
+        ["xpath=//a[@id='nav-link-accountList']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-tools']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2FRylan-Automatic-Umbrellas-Windproof-Umberalla%2Fdp%2FB0D17XMJKQ%2Fref%3Dnav_ya_signin%3Fpd_rd_w%3DAh5bh%26content-id%3Damzn1.sym.cde02f8b-0594-439d-9e93-f4cced7ce3ce%26pf_rd_p%3Dcde02f8b-0594-439d-9e93-f4cced7ce3ce%26pf_rd_r%3DJ3PYFWG5W7P9JFWKQQ3E%26pd_rd_wg%3Db6cHc%26pd_rd_r%3D56fbfec3-f71a-40a6-89a7-823bc9e1d9aa%26pd_rd_i%3DB0D17XMJKQ%26psc%3D1&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0')]", "xpath:href"],
+        ["xpath=//div[3]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f53f2e22-b926-475a-b2a5-5bee9d33dbd2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=nav-link-accountList",
+      "targets": [
+        ["id=nav-link-accountList", "id"],
+        ["css=#nav-link-accountList", "css:finder"],
+        ["xpath=//a[@id='nav-link-accountList']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-tools']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2FRylan-Automatic-Umbrellas-Windproof-Umberalla%2Fdp%2FB0D17XMJKQ%2Fref%3Dnav_ya_signin%3Fpd_rd_w%3DAh5bh%26content-id%3Damzn1.sym.cde02f8b-0594-439d-9e93-f4cced7ce3ce%26pf_rd_p%3Dcde02f8b-0594-439d-9e93-f4cced7ce3ce%26pf_rd_r%3DJ3PYFWG5W7P9JFWKQQ3E%26pd_rd_wg%3Db6cHc%26pd_rd_r%3D56fbfec3-f71a-40a6-89a7-823bc9e1d9aa%26pd_rd_i%3DB0D17XMJKQ%26psc%3D1&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0')]", "xpath:href"],
+        ["xpath=//div[3]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58e58598-f8ae-46e0-8b5f-0bc70773598e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "75026caa-5cf5-4af2-bcbc-865f16311c1d",
+    "name": "Test2",
+    "commands": [{
+      "id": "4e7959a7-c23a-44e8-a01a-4cd10620d123",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d001f76-3d68-4631-a3c0-0ac4803e93fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "809x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55f66082-3c17-41ba-9eaa-a478b45034ea",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2952)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6894b1af-109a-4d9d-879c-233b384b9540",
+      "comment": "",
+      "command": "click",
+      "target": "css=.scroll-carousel_slide__1ku-E:nth-child(11) .imageOverlay--eK9PK",
+      "targets": [
+        ["css=.scroll-carousel_slide__1ku-E:nth-child(11) .imageOverlay--eK9PK", "css:finder"],
+        ["xpath=//div[@id='live-flagship-root']/div/div[2]/div[2]/div/div/div[11]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[11]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6122",
+      "windowTimeout": 2000
+    }, {
+      "id": "ede8f9bb-3df5-42fd-a903-d054eba955a9",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "376dc704-49bf-4911-bc30-b8e57cfdd50a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6122}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97af3f42-4840-4ed5-8546-447f7f6488c8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=icp-nav-flyout",
+      "targets": [
+        ["id=icp-nav-flyout", "id"],
+        ["linkText=EN", "linkText"],
+        ["css=#icp-nav-flyout", "css:finder"],
+        ["xpath=//a[@id='icp-nav-flyout']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-tools']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2Fgp%2Fproduct%2Fhandle-buy-box%2Fref%3Ddp_start-bbf_1_glance&ref_=topnav_lang')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'EN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5a1ba85-8d04-4cab-bb51-6841488b107a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f0f0e8b-c717-4fd0-ac44-56fe9cae1c9a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "230a7044-166d-4ef7-8fe0-a3f77938f234",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.a-carousel-goto-prevpage",
+      "targets": [
+        ["css=.a-carousel-goto-prevpage", "css:finder"],
+        ["xpath=//div[@id='gw-desktop-herotator']/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//body/div/div/div/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Previous slide')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "748199a3-9d3e-4965-b8da-56e937b64311",
+      "comment": "",
+      "command": "storeValue",
+      "target": "id=nav-search-submit-button",
+      "targets": [
+        ["id=nav-search-submit-button", "id"],
+        ["css=#nav-search-submit-button", "css:finder"],
+        ["xpath=//input[@id='nav-search-submit-button']", "xpath:attributes"],
+        ["xpath=//span[@id='nav-search-submit-text']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "search"
+    }, {
+      "id": "6852b2a6-d01d-4bf8-9635-1d6369c17c8e",
+      "comment": "",
+      "command": "echo",
+      "target": "${search}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a258ffdd-9549-4c5c-bfc4-4192c801158a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f97ec19b-23c2-48b7-ae2f-d6786ab83275",
+    "name": "Test3",
+    "commands": [{
+      "id": "2bf3b45d-2044-4403-9421-5e8569adbca8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80a47924-b4b4-47f8-adbb-e01a91b45923",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "161dd92d-3a8c-47e7-bcec-3a2d8fdabe67",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#nav-orders > .nav-line-2",
+      "targets": [
+        ["css=#nav-orders > .nav-line-2", "css:finder"],
+        ["xpath=//a[@id='nav-orders']/span[2]", "xpath:idRelative"],
+        ["xpath=//a[3]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'& Orders')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbd0a854-1076-4906-8280-1784f57ca052",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#nav-orders > .nav-line-2",
+      "targets": [
+        ["css=#nav-orders > .nav-line-2", "css:finder"],
+        ["xpath=//a[@id='nav-orders']/span[2]", "xpath:idRelative"],
+        ["xpath=//a[3]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'& Orders')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2bfa1d8-c1e0-4110-a57b-9a9ee0772a65",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8579604-d51a-4704-806c-9a279b99751f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac855214-5389-4a0b-bc5b-67158fcd669f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mobiles",
+      "targets": [
+        ["linkText=Mobiles", "linkText"],
+        ["css=.nav-a:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Mobiles')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles')]", "xpath:href"],
+        ["xpath=//div[5]/div[2]/div/div/a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Mobiles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "568d828f-7336-4e04-9b1d-c99110ca5f15",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#sobe_d_b_2_CW_1 .a-dynamic-image",
+      "targets": [
+        ["css=#sobe_d_b_2_CW_1 .a-dynamic-image", "css:finder"],
+        ["xpath=//img[@alt='heroalt1']", "xpath:img"],
+        ["xpath=//li[@id='sobe_d_b_2_CW_1']/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "982e91c9-efe4-4077-ac80-e3f7487796ba",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#sobe_d_b_2_CW_1 .a-dynamic-image",
+      "targets": [
+        ["css=#sobe_d_b_2_CW_1 .a-dynamic-image", "css:finder"],
+        ["xpath=//img[@alt='heroalt1']", "xpath:img"],
+        ["xpath=//li[@id='sobe_d_b_2_CW_1']/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88623f2b-6000-4092-ab18-dec79da6df9a",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.scrollBy(0,1500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ec80b0c-24d2-4982-8214-24ff0f688b4a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "259b2d61-aea7-45d6-9f80-2a4e6c6db2bc",
+    "name": "Amazon Demo",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ed34e41c-fcdd-4458-8ade-54ee01afeb21", "75026caa-5cf5-4af2-bcbc-865f16311c1d", "f97ec19b-23c2-48b7-ae2f-d6786ab83275"]
+  }],
+  "urls": ["https://www.amazon.in/"],
+  "plugins": []
+}
